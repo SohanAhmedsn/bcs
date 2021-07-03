@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+}
+.container {
+
+}
+.mainContainer {
+    background-color: antiquewhite;
+    border: 10px solid greenyellow;
+    padding-left: 20px;
+    padding-right: 30px;
+    color: black;
+}
+
+.navBar {
+    width: 100%;
+    padding: 10px solid rgb(129, 3, 3);
+    overflow: left;
+
+}
+.navBar a {
+    float: left;
+    text-align: center;
+    padding: 13px;
+    color: rgb(5, 138, 94);
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navBar a:hover {
+    background-color: gray;
+
+}
+.active {
+    background-color: green;
+}
+@media screen and (max-width: 500px) {
+    .navBar a {
+        float: none;
+        display:block;
+    }
+}
+
+.name {
+    width: 40%;
+    float: left;
+}
+.fatherName {
+    width: 40%;
+    float: left;
+}
+
+
+
+.numberOfBcs {
+    text-align: right;
+    padding-top:0px;
+    padding-bottom:10px;
+    padding-right: 10px;
+
+    
+}
+.img {
+    background-color: antiquewhite;
+    width: 50px;
+    height: 50px;
+    padding-top: 50px;
+}
+
+h4 {
+    background-color:slateblue;
+    padding-left:60px;
+    padding: 5px solid gray;
+    clear: left;
+    white-space:25px;
+
+}
+ 
+h1 {
+    background-color:DodgerBlue;
+    padding-left: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
